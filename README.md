@@ -29,4 +29,4 @@ ____
       </head>
     </html>
 
-Čia yra nuoroda į kitą failą - *[Failo vardas](pirmas.md)*.
+Čia yra nuoroda į kitą failą - *[Failo vardas](01-pamoka.md)*.
