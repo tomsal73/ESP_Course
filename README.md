@@ -1,11 +1,11 @@
-# ESP8266 Kusas
+# ESP8266 Kursas
 
-> Šitas kursas skirtas aukštesnių klasių mokiniams, norintiems susipažinti su įvairiomis programavimo kalbomis, naudojant ESP8266 modulius
+> Šitas kursas skirtas aukštesnių klasių mokiniams, norintiems susipažinti su įvairiomis programavimo kalbomis, naudojant ESP32 modulius
 
 ## Pamokų planas
 
 1. Įvadas. Elektros grandinės. Srovės. Įtampos
-2. ESP8266 jungtys. Paprasčiausias projektas - mirksintis LED
+2. ESP32 jungtys. Paprasčiausias projektas - mirksintis LED
 3. Įvadas į Arduino C++ programavimą. Funkcijos. Valdymo struktūros, Kintamieji. Projektas - Įvedimas per Serial.
 4. Ciklai. Projketas - 4 mirksintys LED.
 5. Įvykių apdorojimas. Projektas - LED užsidega, paspaudus mygtuką.
