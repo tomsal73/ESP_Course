@@ -9,7 +9,11 @@ GPIO34-GPIO39 (INPUT): gali būti naudojamos kaip bendro pobūdžio įvesties ju
 
 GPIO32-GPIO39 (ADC): Šios jungtys gali būti naudojamos kaip ADC - Analoginis konverteris į skaitmeninį. Gali matuoti įtampą jungtyse.
 
+GPIO0, GPIO2, GPIO4, GPIO12-GPIO15, GPIO27, GPIO32, GPIO33 (TOUCH): Šios jungtys tinkamos naudoti lietimui jautrų sensorių.
+
 GPIO2 (LED): Ši jungtis prijungta prie mėlyno LED. Padavus įtampą - užsidega LED.
+
+GND: Per šias jungtis galima prijungti negiamą (-) įtampos šaltinį (žemę).
 
 5V įtampa prijungta prie USB maitinimo laido. Mikrokompiuterį galima maitinti per šią jungtį, bet tik paduodant 5V įtampą!
 
