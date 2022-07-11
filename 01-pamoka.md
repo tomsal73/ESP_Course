@@ -1,2 +1,2 @@
 
-# I Pamoka - įvadas į ESP 8266
+# I Pamoka - įvadas į ESP 32
