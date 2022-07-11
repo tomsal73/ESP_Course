@@ -4,7 +4,7 @@
 
 ## Pamokų planas
 
-1. Įvadas. Elektros grandinės. Srovės. Įtampos. *01-pamoka.md*
+1. Įvadas. Elektros grandinės. Srovės. Įtampos. *[Pamoka 1.](01-pamoka.md)*
 2. ESP32 jungtys. Paprasčiausias projektas - mirksintis LED. 
 3. Įvadas į Arduino C++ programavimą. Funkcijos. Valdymo struktūros, Kintamieji. Projektas - Įvedimas per Serial.
 4. Ciklai. Projketas - 4 mirksintys LED.
