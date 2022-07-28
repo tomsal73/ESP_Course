@@ -25,3 +25,31 @@
 
 ![image](https://user-images.githubusercontent.com/67558835/181628430-5366b0d4-f7d7-4f1c-9800-049cf346d553.png)
 
+
+**Kodas**
+
+```C
+// Made by Tomas Šalkauskas in 2022
+// using examples from https://randomnerdtutorials.com/
+
+
+
+// the number of the LED pin
+#define ledPin 14;  // 14 corresponds to GPIO14
+
+ 
+void setup(){
+
+}
+ 
+void loop(){
+  // turn LED ON 
+  digitalWrite (ledPin, HIGH)
+  // delay for 0,5 sec
+  delay(500);
+  // turn LED off
+  digitalWrite (ledPin, LOW)
+  // delay for 0,5 sec
+  delay(500);
+}
+```
