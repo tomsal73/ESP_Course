@@ -23,4 +23,5 @@
 
 **Projektas su 1 LED**:
 
-![image](https://user-images.githubusercontent.com/67558835/181621496-ae32a8b1-21b2-4125-9811-0da5f4bd294d.png)
+![image](https://user-images.githubusercontent.com/67558835/181628430-5366b0d4-f7d7-4f1c-9800-049cf346d553.png)
+
