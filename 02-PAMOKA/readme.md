@@ -35,20 +35,20 @@
 
 
 // the number of the LED pin
-#define ledPin 14;  // 14 corresponds to GPIO14
+#define ledPin 14  // 14 corresponds to GPIO14
 
  
 void setup(){
-
+   pinMode(ledPin, OUTPUT);
 }
  
 void loop(){
   // turn LED ON 
-  digitalWrite (ledPin, HIGH)
+  digitalWrite (ledPin, HIGH);
   // delay for 0,5 sec
   delay(500);
   // turn LED off
-  digitalWrite (ledPin, LOW)
+  digitalWrite (ledPin, LOW);
   // delay for 0,5 sec
   delay(500);
 }
