@@ -21,12 +21,31 @@
 
 
 
-**Projektas su 1 LED**:
+### NUORODOS
 
-![image](https://user-images.githubusercontent.com/67558835/181628430-5366b0d4-f7d7-4f1c-9800-049cf346d553.png)
+>Arduino IDE
+>https://www.arduino.cc/en/software
+>
+>ESP32 plokštės bibliotekos
+>http://arduino.esp8266.com/stable/package_esp8266com_index.json,https://dl.espressif.com/dl/package_esp32_index.json
+>
+>CP2102 USB Valdiklis
+>https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+>
+>Daugiau apie ESP32
+>https://randomnerdtutorials.com/projects-esp32/
+
+---
 
 
-**Kodas**
+### Projektas: Mirksintis LED
+
+#### Maketinės plokštės diagrama
+
+![image](https://user-images.githubusercontent.com/67558835/181736844-509025f3-b3bc-4153-aab8-4e9b9dff9855.png)
+
+
+#### Programa
 
 ```C
 // Made by Tomas Šalkauskas in 2022
