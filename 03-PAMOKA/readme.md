@@ -1,4 +1,4 @@
-# Funkcijos. Valdymo struktūros, Kintamieji. Projektas - Įvedimas per Serial.
+# Funkcijos. Kintamieji. Projektas - Įvedimas per Serial. Kitos Valdymo struktūros.
 
 ### Funkcijos ir Procedūros
 
