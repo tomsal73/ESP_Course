@@ -6,8 +6,8 @@
 
 1. Įvadas. Elektros grandinės. Srovės. Įtampos. *[Pamoka 1.](01-PAMOKA/readme.md)*
 2. ESP32 jungtys. Paprasčiausias projektas - mirksintis LED. *[Pamoka 2.](02-PAMOKA/readme.md)*
-3. Įvadas į Arduino C++ programavimą. Funkcijos. Valdymo struktūros, Kintamieji. Projektas - Įvedimas per Serial.
-4. Ciklai. Projketas - 4 mirksintys LED.
+3. Įvadas į Arduino C++ programavimą. Funkcijos. Valdymo struktūros, Kintamieji. Projektas - Įvedimas per Serial.*[Pamoka 3.](03-PAMOKA/readme.md)*
+4. Ciklai. Projektas - 4 mirksintys LED.
 5. Įvykių apdorojimas. Projektas - LED užsidega, paspaudus mygtuką.
 7. Bibliotekos. Projektas OLED ekranas - text Scroll.
 8. Jutiklių naudojimas. Projektas - temperatūros ir drėgmės matavimas.
