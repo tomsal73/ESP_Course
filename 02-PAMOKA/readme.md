@@ -27,7 +27,7 @@
 >https://www.arduino.cc/en/software
 >
 >ESP32 plokštės bibliotekos
->http://arduino.esp8266.com/stable/package_esp8266com_index.json,https://dl.espressif.com/dl/package_esp32_index.json
+>https://dl.espressif.com/dl/package_esp32_index.json
 >
 >CP2102 USB Valdiklis
 >https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
