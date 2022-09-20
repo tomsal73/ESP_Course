@@ -36,6 +36,27 @@ var = 200;
 } while (var > 0) ;
 ```
 
+
+##Užduotis 4 Mirksintys LED
+
+>
+> Parašyti programą, kuri uždegtų po vieną visus 4 LED kas 0,25 sek. Visi 4 dega 0,5 sek. Po to vėl po vieną visi užgęsta ir 1 sek nedega. 
+> Paskui viskas vėl kartojasi. Programą parašyti 3 variantais naudojant tokias ciklo komandas:
+>  - for
+>  - while
+>  - do ... while
+>
+> Patarimai
+>  - LED įvadų inicializavimui naudoti komandą pinMode(ledPin, OUTPUT);
+>  - LED uždegimui naudoti komandą digitalWrite (ledPin, HIGH), užgesinimui digitalWrite (ledPin, LOW);
+> - uždelsimui naudoti komandą delay(x), kur x - uždelsimo laikas milisekundėmis. 1000 = 1 sek.
+> 
+>
+> Schemos pavyzdys:
+>
+> ![image](https://user-images.githubusercontent.com/67558835/191341982-967b1239-ce75-437f-86cd-15f8e61c199d.png)
+>
+
 #### Sąlygos - if, else, else if
 
 ![image](https://user-images.githubusercontent.com/67558835/183757533-b969239f-e387-43d6-80a4-41ab9a0a39bd.png)
@@ -73,27 +94,41 @@ else { // temperature < 60
   }
 ```
 
+##Užduotis 4 Daugybos lentelės treniruoklis
+
+>
+> Parašyti programą, išvestų į serial du skaičius nuo 1 iki 10 ir lauktų įvedimo 1 sek.
+> Įvedus skaičių programa patikrintų, ar įvestas skaičius yra lygus pirmų dviejų skaičių sandaugai. jeigu taip - užsidega žalias LED ir dega 2 sek. Jeigu ne - įsijungia garsinis signalas - sirena.
+> Paskui viskas vėl kartojasi. 
+>
+> Patarimai
+>  - LED įvadų inicializavimui naudoti komandą pinMode(ledPin, OUTPUT);
+>  - LED uždegimui naudoti komandą digitalWrite (ledPin, HIGH), užgesinimui digitalWrite (ledPin, LOW);
+>  - Passive buzzer inicializavimui naudokite komandas   pinMode(PIN_BUZZER, OUTPUT);  ledcSetup(CHN, 0, 10);  ledcAttachPin(PIN_BUZZER, CHN); 
+>  - sirenai naudokite funkcija alert() aprašyta žemiau.;
+>  - uždelsimui naudoti komandą delay(x), kur x - uždelsimo laikas milisekundėmis. 1000 = 1 sek.
+> 
+> funkcija alert, sukurianti sirenos garsą
+> ```C
+> void alert() {
+>  float sinVal;       
+>  int toneVal;          
+>  for (int x = 0; x < 180; x += 2) {
+>    sinVal = sin(x * (PI / 180));
+>    toneVal = 1800 + sinVal * 500;
+>    ledcWriteTone(CHN, toneVal);
+>    delay(10);
+>  }
+>  ledcWriteTone(CHN,0);
+> }
+> ```
+> 
+> Schemos pavyzdys:
+>
+> ![image](https://user-images.githubusercontent.com/67558835/191348044-4c69352b-8568-4891-9eeb-beb0819ef0a9.png)
+> 
+
+>
+
 
 Daugiau informacijos: https://www.arduino.cc/reference/en/
-
-
-##Užduotis 4 Mirksintys LED
-
-Tikslas: Parašyti programą, kuri uždegtų po vieną visus 4 LED kas 0,25 sek. Visi 4 dega 0,5 sek. Po to vėl po vieną visi užgęsta ir 1 sek nedega. 
-Paskui viskas vėl kartojasi. Programą parašyti 3 variantais naudojant tokias ciklo komandas:
- - for
- - while
- - do ... while
-
-Patarimai
- - LED įvadų inicializavimui naudoti komandą pinMode(ledPin, OUTPUT);
- - LED uždegimui naudoti komandą digitalWrite (ledPin, HIGH), užgesinimui digitalWrite (ledPin, LOW);
- - uždelsimui naudoti komandą delay(x), kur x - uždelsimo laikas milisekundėmis. 1000 = 1 sek.
-
-Schemos pavyzdys:
-
-![image](https://user-images.githubusercontent.com/67558835/191341982-967b1239-ce75-437f-86cd-15f8e61c199d.png)
-
-
-
-
