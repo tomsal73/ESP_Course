@@ -34,14 +34,22 @@ a = 10;
 b = 3;
 
 //kintamųjų reikšmių perdavimas funkcijai
-c = susumuok (a, b) ;
+c = suma (a, b) ;
 
 //funkcijos aprašymas
-int susumuok (int p1, int p2) {
+int suma (int p1, int p2) {
     return p1+p2 ;
 }
 
 ```
+## Užduotis
+Parašykite programą, kuri per Serial portą gautų 2 sveikus skaičius, juos susumuotų iškviečiant funkciją _suma_ ir per Serial atspausdintų gautą rezultatą.
+Programai reikės:
+ - inicializuoti Serial portą naudojant komandas   Serial.begin(9600); ir Serial.setTimeout(10000);
+ - aprašyti kintamuosius reikšmės ir rezultatui saugoti
+ - gauti įvesties duomenis naudojant komandas kintamasis = Serial.readStringUntil('\n').toInt() ;
+ - iškviesti funkciją suma naudojant komandą rezultatas = suma (demuo1, demuo2) ;
+ - atspausdinti rezultatą naudojant komandas Serial.print ("Suma: ") ; Serial.println (rezultatas) ; 
 
 ### Kitos valdymo struktūros
 
