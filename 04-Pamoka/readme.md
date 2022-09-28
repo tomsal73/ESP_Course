@@ -57,6 +57,42 @@ var = 200;
 > ![image](https://user-images.githubusercontent.com/67558835/191341982-967b1239-ce75-437f-86cd-15f8e61c199d.png)
 >
 
+```C
+// Made by Tomas Šalkauskas in 2022
+// using examples from https://randomnerdtutorials.com/
+
+// the number of the LED pin
+int myPin = 16;
+ 
+void setup(){
+   pinMode(myPin, OUTPUT);
+   pinMode(myPin+1, OUTPUT);
+   pinMode(myPin+2, OUTPUT);
+   pinMode(myPin+3, OUTPUT);
+   Serial.begin(9600);
+}
+ 
+void loop(){
+  // turn LED ON 
+  for (int i=0;i<=3;i++) {
+    digitalWrite (myPin+i, HIGH);
+    // delay for 0,25 sec
+    delay(250);
+  }
+  Serial.println ("Įjungta") ;
+  delay(500);
+  
+  for (int i=3;i>=0;i--) {
+    digitalWrite (myPin+i, LOW);
+    // delay for 0,25 sec
+    delay(250);
+  }
+  Serial.println ("Išungta") ;
+
+  delay(1000);
+}
+```
+
 #### Sąlygos - if, else, else if
 
 ![image](https://user-images.githubusercontent.com/67558835/183757533-b969239f-e387-43d6-80a4-41ab9a0a39bd.png)
