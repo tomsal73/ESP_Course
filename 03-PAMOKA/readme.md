@@ -57,3 +57,19 @@ int suma (int p1, int p2) {
 > ![image](https://user-images.githubusercontent.com/67558835/191327811-53d00eb8-9302-4803-b9c4-77ae4cf9932c.png)
 >
  
+
+### Užduotis 2
+>
+> Parašykite programą, kuri per Serial rašytų mygtuko būseną kas 1 sekundę: 0 (jei nepaspaustas) arba 1 (jei paspaustas)
+>
+> Jungimo schema
+>
+> ![image](https://user-images.githubusercontent.com/67558835/196516845-d9388e4d-1e9f-45bc-bf24-985d11722808.png)
+>
+> Patarimai
+> 1) panaudokite programą, aprašytą antroje pamokoje: *[Mirksintis LED](02-PAMOKA/readme.md)* 
+> 2) Vietoj ledPin 14, naudokite buttonPin 16;
+> 3) Vietoj pinMode(ledPin, OUTPUT) naudokite pinMode(buttonPin, INPUT);
+> 4) Vietoj digitalWrite (), naudokite digitalRead ();
+> 5) Serial kanalo inicializavimui naudokite Serial.begin(9600);
+> 6) Išvedimui per Serial naudokite Serial.println (mygtukoBusena) ;
