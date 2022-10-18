@@ -139,10 +139,10 @@ else { // temperature < 60
 >
 > Patarimai
 >  - LED įvadų inicializavimui naudoti komandą pinMode(ledPin, OUTPUT);
->  - atsitiktinių skaičių generavimui naudokite funkciją random(300), o šios funkcijos inicializavimui randomSeed(analogRead(A0));
+>  - atsitiktinių skaičių generavimui naudokite funkciją random(10), o šios funkcijos inicializavimui randomSeed(analogRead(A0));
 >  - skaičiaus įvedimui naudokite 3 pamokoje aprašytą metodą Serial.readStringUntil('\n').toInt() ;
 >  - LED uždegimui naudoti komandą digitalWrite (ledPin, HIGH), užgesinimui digitalWrite (ledPin, LOW);
->  - Passive buzzer inicializavimui naudokite komandas   pinMode(PIN_BUZZER, OUTPUT);  ledcSetup(CHN, 0, 10);  ledcAttachPin(PIN_BUZZER, CHN); 
+>  - Passive buzzer inicializavimui naudokite komandas   pinMode(PIN_BUZZER, OUTPUT);  ledcSetup(CHN, 0, 10);  ledcAttachPin(PIN_BUZZER, CHN), kur CHN=0; 
 >  - sirenai naudokite funkcija alert() aprašyta žemiau.;
 >  - uždelsimui naudoti komandą delay(x), kur x - uždelsimo laikas milisekundėmis. 1000 = 1 sek.
 > 
