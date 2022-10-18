@@ -36,8 +36,7 @@ var = 200;
 } while (var > 0) ;
 ```
 
-
-##Užduotis 4 Mirksintys LED
+## Užduotis - 4 Mirksintys LED
 
 >
 > Parašyti programą, kuri uždegtų po vieną visus 4 LED kas 0,25 sek. Visi 4 dega 0,5 sek. Po to vėl po vieną visi užgęsta ir 1 sek nedega. 
@@ -130,7 +129,7 @@ else { // temperature < 60
   }
 ```
 
-##Užduotis 4 Daugybos lentelės treniruoklis
+##Užduotis  - Daugybos lentelės treniruoklis
 
 >
 > Parašyti programą, išvestų į serial du skaičius nuo 1 iki 10 ir lauktų įvedimo 1 sek.
