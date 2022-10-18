@@ -129,7 +129,7 @@ else { // temperature < 60
   }
 ```
 
-##Užduotis  - Daugybos lentelės treniruoklis
+## Užduotis  - Daugybos lentelės treniruoklis
 
 >
 > Parašyti programą, išvestų į serial du skaičius nuo 1 iki 10 ir lauktų įvedimo 1 sek.
