@@ -72,4 +72,4 @@ int suma (int p1, int p2) {
 > 3) Vietoj pinMode(ledPin, OUTPUT) naudokite pinMode(buttonPin, INPUT);
 > 4) Vietoj digitalWrite (), naudokite digitalRead (buttonPin);
 > 5) Serial kanalo inicializavimui naudokite Serial.begin(9600);
-> 6) Išvedimui per Serial naudokite Serial.println (mygtukoBusena) ;
+> 6) Išvedimui per Serial naudokite Serial.println (mygtukoBusena). Nepamirškite apsirašyti kintamojo mygtukoBusena kaip int tipo ;
