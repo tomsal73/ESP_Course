@@ -70,6 +70,6 @@ int suma (int p1, int p2) {
 > 1) panaudokite programą, aprašytą antroje pamokoje: *[Mirksintis LED](02-PAMOKA/readme.md)* 
 > 2) Vietoj ledPin 14, naudokite buttonPin 16;
 > 3) Vietoj pinMode(ledPin, OUTPUT) naudokite pinMode(buttonPin, INPUT);
-> 4) Vietoj digitalWrite (), naudokite digitalRead ();
+> 4) Vietoj digitalWrite (), naudokite digitalRead (buttonPin);
 > 5) Serial kanalo inicializavimui naudokite Serial.begin(9600);
 > 6) Išvedimui per Serial naudokite Serial.println (mygtukoBusena) ;
