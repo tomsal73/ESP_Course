@@ -101,7 +101,7 @@ Naudosime tokias ekranos valdymo funkcijas:
   startscrollright(0x00, 0x0F) ;
   
   // pradeda slinkti iš dešinės į kairę
-  startscrollleft(0x00, 0x0F): scroll text from right to left
+  startscrollleft(0x00, 0x0F); 
   
   // sustabdo teksto slinkimą
   display.stopscroll();
