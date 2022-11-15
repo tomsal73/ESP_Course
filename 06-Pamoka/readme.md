@@ -140,3 +140,5 @@ Naudosime tokias ekranos valdymo funkcijas:
   //brežia užpildytą trikampį per nurodytas koordinates: fillTriangle(x1, y1, x2, y2, x3, y3, color)
   display.fillTriangle(10, 10, 55, 20, 5, 40, WHITE);
 ```
+
+Naudokite kaip pavyzdį *[oled_ssd1306_128x64_test.ino](oled_ssd1306_128x64_test.ino)*, kurioje galėsite pridėti daugiau ekrano valdymo funkcijų.
