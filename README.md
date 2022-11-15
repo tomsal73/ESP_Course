@@ -9,7 +9,7 @@
 3. Įvadas į Arduino C++ programavimą. Funkcijos. Valdymo struktūros, Kintamieji. Projektas - Įvedimas per Serial. *[Pamoka 3.](03-PAMOKA/readme.md)*
 4. Ciklai ir kitos valdymo struktūros. *[Pamoka 4.](04-Pamoka/readme.md)*
 5. Įvykių apdorojimas. Projektas - LED užsidega, paspaudus mygtuką. *[Pamoka 5.](05-PAMOKA/readme.md)*
-7. Bibliotekos. Projektas OLED ekranas - text Scroll.
+6. Bibliotekos. Projektas OLED ekranas - text Scroll. *[Pamoka 6.](06-Pamoka/readme.md)*
 8. Jutiklių naudojimas. Projektas - temperatūros ir drėgmės matavimas.
 9. Elektros įrenginių valdymas. Relės. Projektas - ventiliatoriaus įjungimas nuo judesio.
 10. Komunikacija tarp modulių. Projektas ESP-NOW - duomenų siuntimas ir gavimas.
