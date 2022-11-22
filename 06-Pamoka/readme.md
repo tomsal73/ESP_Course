@@ -142,3 +142,6 @@ Naudosime tokias ekranos valdymo funkcijas:
 ```
 
 Naudokite kaip pavyzdį *[oled_ssd1306_128x64_test.ino](oled_ssd1306_128x64_test.ino)*, kurioje galėsite pridėti daugiau ekrano valdymo funkcijų.
+
+Sudėtingesnis pavyzdys - spirografas https://nathanfriend.io/inspiral-web/. 
+ESP32 programa: *[oled_ssd1306_128x64_spirograph.ino](oled_ssd1306_128x64_spirograph.ino)* 
