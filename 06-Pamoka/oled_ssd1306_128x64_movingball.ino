@@ -54,24 +54,17 @@ void loop() {
     // valom skritulį
     display.fillCircle(int(cx), int(cy), r, BLACK);
 
+   // tikrinam ar mygtukai paspausti
    kmm = digitalRead (KM) ;
    dmm = digitalRead (DM) ;
    if (kmm == LOW) r-- ;
    if (dmm == LOW) r++ ;
     
-    // tikrinam ar atsitrenkė
-       if ((int(cx) >= SCREEN_WIDTH-r) or (int(cx) <= r)) {
-      // atsitrenkė į dešinį arba kairį kraštą
-      kamp = 180 - kamp ;
-   }
-   if ((int(cy) >= SCREEN_HEIGHT-r) or (int(cy) <= r)) {
-      // atsitrenkė į viršutinį arba apatinį kraštą
-      kamp = 360 - kamp ;
-   }
+   // tikrinam ar atsitrenkė
+
    
    //skaičiuojam naujas koordinates
    rad = M_PI/double(180)*double(kamp) ;
-
    cx += ZINGSNIS*cos(rad) ; 
    cy += ZINGSNIS*sin(rad) ;
 
