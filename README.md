@@ -10,7 +10,7 @@
 4. Ciklai ir kitos valdymo struktūros. *[Pamoka 4.](04-Pamoka/readme.md)*
 5. Įvykių apdorojimas. Projektas - LED užsidega, paspaudus mygtuką. *[Pamoka 5.](05-PAMOKA/readme.md)*
 6. Bibliotekos. Projektas OLED ekranas - text Scroll. *[Pamoka 6.](06-Pamoka/readme.md)*
-8. Jutiklių naudojimas. Projektas - temperatūros ir drėgmės matavimas.
+8. Jutiklių naudojimas. Projektas - temperatūros ir drėgmės matavimas. *[Pamoka 7.](07-PAMOKA/readme.md)*
 9. Elektros įrenginių valdymas. Relės. Projektas - ventiliatoriaus įjungimas nuo judesio.
 10. Komunikacija tarp modulių. Projektas ESP-NOW - duomenų siuntimas ir gavimas.
 11. Web Įvadas. HTML, HTTP, Web serveriai, Type Script. Projektas - Pirmas HTML puslapis.
