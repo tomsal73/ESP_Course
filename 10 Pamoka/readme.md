@@ -70,8 +70,47 @@ Užsiregistruoti viešoje Orų duomenų basėje - OpenWeather. Prisijungti prie 
 ## Programos veikimo principas
 
  - setup dalis
-     - Inicializuojam Ekraną, Wifi ir laikmatį
+     - Inicializuojam Ekraną, Wifi, OpenWeather parametrus ir laikmatį
+       ```C
+           // Ekranas
+           #define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
+           #define SCREEN_ADDRESS 0x3C ///< get adddress using I2C scanner
+           Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+           U8G2_FOR_ADAFRUIT_GFX u8g2_for_adafruit_gfx;
+          
+           // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
+           if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
+             Serial.println(F("SSD1306 allocation failed"));
+             for(;;); // Don't proceed, loop forever
+           }
+           u8g2_for_adafruit_gfx.begin(display);
+
+           // Wifi
+           const char* ssid = "wifi_tinklo_pavadinimas";
+           const char* password = "slaptazodis";
+           
+           // OpenWeather
+           String openWeatherMapApiKey = "9ea5a3cd53f1dbc196176454eeb56679";
+
+           String city = "Vilnius";
+           String countryCode = "LT";
+           
+           // Laikmatis
+           unsigned long lastTime = 0;
+           // Set timer to 10 seconds (10000)
+           unsigned long timerDelay = 10000;
+           
+       ```    
      - Jungiamės prie Wifi
+       ```C       
+           wStatusL2 = "Jungiamės" ;
+           WiFi.begin(ssid, password);
+           while(WiFi.status() != WL_CONNECTED) {
+              delay(500);
+              wStatusL2+= "." ;
+              Print1(wStatusL2);
+           }       
+       ```
  - loop dalis
      - Tikrinam ar jau laikas siųsti užklausą į OpenWeather ``` (if ((millis() - lastTime) > timerDelay)) { ```
      - Siunčiam užklausą ``` jsonBuffer = httpGETRequest(serverPath.c_str()); ```
