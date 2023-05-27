@@ -99,7 +99,7 @@ setInterval(function ( ) {
 		<span id="humidity">%HUMIDITY%</span>
         <sup class="units">&percnt;</sup>
 		<p>Drėgnumo lygis: <span class="params"  id="humthres">%HumidityThreshold%</span> &percnt;</p>
-		<input type="range" min="0" max="100" class="slider" id="humSlider" onchange="HumiditySlider(this)"/>		
+		<input type="range" min="0" max="100" value="%HumidityThreshold%" class="slider" id="humSlider" onchange="HumiditySlider(this)"/>		
 		<p>&nbsp</p>
 	  </div>
     </div>
